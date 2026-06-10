@@ -47,13 +47,9 @@ Bu aşamada, yerel simülasyon ortamı ile AWS bulut altyapısı arasında güve
 3. **Simülasyon Kodunun Geliştirilmesi (`main.py`):** Akıllı şehir senaryosuna uygun olarak rastgele sıcaklık, nem ve akıllı çöp kutusu doluluk oranları üreten ve bunları JSON formatına çeviren bir Python scripti yazılmıştır.
 4. **Güvenli MQTT Bağlantısı:** X.509 sertifikaları ve özel anahtarlar kullanılarak Port 8883 üzerinden AWS bulutuna saniyede bir veri yayını (Publish) başarıyla başlatılmıştır. Bulut tarafında `akillisehir/sensor1` konusu (Topic) üzerinden veriler anlık olarak doğrulanmıştır.
 
+
 ### 3. Gün Görsel Kanıtları:
 
-* **Görsel 6: Python Scripti Üzerinden Anlık Telemetri Veri Akışı (Yerel Terminal)**
-  ![Yerel Terminal Akışı](images/ss6_canli_veri_akisi.png)
-
-* **Görsel 7: AWS IoT Core MQTT Test Client Canlı Veri Takibi - Ekran 1 (Bulut Paneli)**
-  ![AWS Bulut Doğrulaması 1](images/ss7_aws_mqtt_kanit_1.png)
-
-* **Görsel 8: AWS IoT Core MQTT Test Client Canlı Veri Takibi - Ekran 2 (Bulut Paneli)**
-  ![AWS Bulut Doğrulaması 2](images/ss7_aws_mqtt_kanit_2.png)
+* **Görsel 6: Python Scripti Üzerinden Anlık Telemetri Veri Akışı (Yerel Terminal)** ![Yerel Terminal Akışı](ss6_canli_veri_akisi.png.png)
+* **Görsel 7: AWS IoT Core MQTT Test Client Canlı Veri Takibi - Ekran 1 (Bulut Paneli)** ![AWS Bulut Doğrulaması 1](ss7_aws_mqtt_kanit.png.png)
+* **Görsel 8: AWS IoT Core MQTT Test Client Canlı Veri Takibi - Ekran 2 (Bulut Paneli)** ![AWS Bulut Doğrulaması 2](ss7_aws_mqtt_kanit.png (2).png)
