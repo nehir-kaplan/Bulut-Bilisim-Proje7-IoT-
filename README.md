@@ -51,3 +51,11 @@ Bu aşamada, yerel simülasyon ortamı ile AWS bulut altyapısı arasında güve
 * **Görsel 6: Python Scripti Üzerinden Anlık Telemetri Veri Akışı (Yerel Terminal)** ![Yerel Terminal Akışı](ss6_canli_veri_akisi.png.png)
 * **Görsel 7: AWS IoT Core MQTT Test Client Canlı Veri Takibi - Ekran 1 (Bulut Paneli)** ![AWS Bulut Doğrulaması 1](ss7_aws_mqtt_kanit.png.png)
 * **Görsel 8: AWS IoT Core MQTT Test Client Canlı Veri Takibi - Ekran 2 (Bulut Paneli)** ![AWS Bulut Doğrulaması 2](ss7_aws_mqtt_kanit.png (2).png)
+
+### 4. Gün: Veri İşleme ve DynamoDB Veritabanı Entegrasyonu
+*(Buraya yukarıdaki metni yapıştır)*
+
+| Ekran Görüntüsü | Açıklama |
+| :--- | :--- |
+| ![SQL Sorgusu](screenshots/04_SQL_Sorgu_Yapilandirma.png) | SQL Kuralı Yapılandırması |
+| ![Tablo Tasarımı](screenshots/04_DynamoDB_Tablo_Olusturma.png) | DynamoDB Tablo Tanımı |
